@@ -15,4 +15,4 @@ export DH_ALWAYS_EXCLUDE=CVS:.git
 	dh  $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-daemon --enable-cli --disable-gtk --disable-mac --disable-wx --disable-beos --disable-nls
+	dh_auto_configure -- --prefix=/apps/transmission --enable-daemon --enable-cli --disable-gtk --disable-mac --disable-wx --disable-beos --disable-nls

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/apps/sickbeard/SickBeard.py -q --daemon --nolaunch --pidfile=/apps/sickbeard/sickbeard.pid --datadir=/apps/sickbeard/datadir --port=5052 --nolaunch --config=/apps/sickbeard/config.ini
+/apps/transmission/bin/transmission-daemon --pid-file=/apps/transmission/transmission.pid --config-dir=/apps/transmission/configdir

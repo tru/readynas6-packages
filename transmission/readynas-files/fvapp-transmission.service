@@ -1,12 +1,11 @@
 [Unit]
-Description=Sick Beard
+Description=Transmission BitTorrent Client
 After=network.target
 
 [Service]
-ExecStart=/apps/sickbeard/start.sh
+ExecStart=/apps/transmission/start.sh
 Type=forking
-KillMode=process
-PIDFile=/apps/sickbeard/sickbeard.pid
+PIDFile=/apps/transmission/transmission.pid
 User=admin
 
 [Install]

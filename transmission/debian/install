@@ -1,0 +1,2 @@
+readynas-files/* /apps/transmission
+readynas-files/settings.json /apps/transmission/configdir
