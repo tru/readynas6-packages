@@ -1,0 +1,13 @@
+<Application resource-id="couchpotato">
+  <AppID>NETGEAR_GENIEAPP_000006</AppID>
+  <Category>APP_CAT_OTHER</Category>
+  <Version>0.1.20130215+git-a49a00a</Version>
+  <Name>CouchPotato</Name>
+  <Author>Tobias Hieta</Author>
+  <RequireReboot>0</RequireReboot>
+  <LaunchURL>http://localhost:5051</LaunchURL>
+  <ConfigURL>http://localhost:5051</ConfigURL>
+  <DebianPackage>couchpotato</DebianPackage>
+  <ServiceName>fvapp-couchpotato.service</ServiceName>
+  <Description lang="en-us">CouchPotato is an automatic NZB and torrent downloader</Description>
+</Application>

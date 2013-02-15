@@ -1,0 +1,16 @@
+Source: couchpotato
+Section: net
+Priority: extra
+Maintainer: Tobias Hieta <tobias@hieta.se>
+Build-Depends: debhelper (>= 7.4)
+Homepage: http://sickbeard.com
+
+Package: couchpotato
+Architecture: any
+Depends: ${misc:Depends}, python (>= 2.7)
+Description: CouchPotato (CP) is an automatic NZB and torrent downloader.
+  CouchPotato is an automatic NZB and torrent downloader.
+  You can keep a "want to watch"-list and it will search for NZBs/torrents
+  of these items every X hours. Once a correct release is found, matching
+  the correct quality, it will send it to SABnzbd or download the .nzb or
+  .torrent to a specified directory

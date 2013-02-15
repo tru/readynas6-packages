@@ -1,0 +1,12 @@
+[Unit]
+Description=CouchPotato
+After=network.target
+
+[Service]
+ExecStart=/apps/couchpotato/start.sh
+Type=forking
+PIDFile=/apps/couchpotato/couchpotato.pid
+User=admin
+
+[Install]
+WantedBy=multi-user.target
