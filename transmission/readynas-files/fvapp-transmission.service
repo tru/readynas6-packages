@@ -1,0 +1,13 @@
+[Unit]
+Description=Sick Beard
+After=network.target
+
+[Service]
+ExecStart=/apps/sickbeard/start.sh
+Type=forking
+KillMode=process
+PIDFile=/apps/sickbeard/sickbeard.pid
+User=admin
+
+[Install]
+WantedBy=multi-user.target
