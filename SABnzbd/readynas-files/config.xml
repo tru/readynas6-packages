@@ -1,0 +1,13 @@
+<Application resource-id="sabnzbd">
+  <AppID>NETGEAR_GENIEAPP_000006</AppID>
+  <Category>APP_CAT_NET</Category>
+  <Version>0.7.11</Version>
+  <Name>SABnzbd</Name>
+  <Author>Tobias Hieta</Author>
+  <RequireReboot>0</RequireReboot>
+  <LaunchURL>http://localhost:5050/web</LaunchURL>
+  <ConfigURL>http://localhost:5050/web</ConfigURL>
+  <DebianPackage>sabnzbd</DebianPackage>
+  <ServiceName>fvapp-sabnzbd.service</ServiceName>
+  <Description lang="en-us">SABnzbd is an Open Source Binary Newsreader written in Python.</Description>
+</Application>

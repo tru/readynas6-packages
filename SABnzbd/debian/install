@@ -1,0 +1,9 @@
+src/interfaces /apps/sabnzbd/
+src/sabnzbd /apps/sabnzbd/
+src/SABnzbd.py /apps/sabnzbd/
+src/locale /apps/sabnzbd/
+src/email /apps/sabnzbd/
+src/cherrypy /apps/sabnzbd/
+src/gntp /apps/sabnzbd/
+readynas-files/* /apps/sabnzbd/
+

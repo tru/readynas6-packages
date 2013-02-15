@@ -1,0 +1,13 @@
+[Unit]
+Description=SABnzbd+
+After=network.target
+
+[Service]
+ExecStart=/apps/sabnzbd/start.sh
+Type=forking
+KillMode=process
+PIDFile=/apps/sabnzbd/sabnzbd-5050.pid
+User=admin
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+Source: sabnzbd
+Section: net
+Priority: extra
+Maintainer: Tobias Hieta <tobias@hieta.se>
+Build-Depends: debhelper (>= 7.4)
+Homepage: http://sabnzbd.org
+
+Package: sabnzbd
+Architecture: any
+Depends: ${misc:Depends}, python2.7 (>= 2.7), python-cheetah (>= 2.4), python-configobj (>= 2.7), python-feedparser (>= 5.1), python-openssl (>= 0.13), python-yenc (>= 0.3), busybox-unzip (>= 1.0), unrar-free (>= 1.0)
+Description: SABnzbd is an Open Source Binary Newsreader written in Python.
+  SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can.
+  All you have to do is add an .nzb. SABnzbd takes over from there, where it will be
+  automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
