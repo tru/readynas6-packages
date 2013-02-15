@@ -1,0 +1,16 @@
+Source: sickbeard
+Section: net
+Priority: extra
+Maintainer: Tobias Hieta <tobias@hieta.se>
+Build-Depends: debhelper (>= 7.4)
+Homepage: http://sickbeard.com
+
+Package: sickbeard
+Architecture: any
+Depends: ${misc:Depends}, python2.7 (>= 2.7), python-cheetah (>= 2.4)
+Description: The ultimate PVR application that searches for and manages your TV shows
+  Sick Beard is a PVR for newsgroup users (with limited torrent support). It watches for
+  new episodes of your favorite shows and when they are posted it downloads them, sorts
+  and renames them, and optionally generates metadata for them. It currently supports
+  NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS
+  and retrieves show information from theTVDB.com and TVRage.com.

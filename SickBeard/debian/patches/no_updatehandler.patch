@@ -1,0 +1,13 @@
+--- a/src/sickbeard/versionChecker.py
++++ b/src/sickbeard/versionChecker.py
+@@ -36,6 +36,10 @@
+     """
+ 
+     def __init__(self):
++        """ Using packages we skip the updater """
++        self.updater = None
++        return
++
+         self.install_type = self.find_install_type()
+ 
+         if self.install_type == 'win':

@@ -1,0 +1,13 @@
+<Application resource-id="sickbeard">
+  <AppID>NETGEAR_GENIEAPP_000006</AppID>
+  <Category>APP_CAT_OTHER</Category>
+  <Version>0.1git4e57625</Version>
+  <Name>Sick Beard</Name>
+  <Author>Tobias Hieta</Author>
+  <RequireReboot>0</RequireReboot>
+  <LaunchURL>http://localhost:5052</LaunchURL>
+  <ConfigURL>http://localhost:5052</ConfigURL>
+  <DebianPackage>sickbeard</DebianPackage>
+  <ServiceName>fvapp-sickbeard.service</ServiceName>
+  <Description lang="en-us">The ultimate PVR application that searches for and manages your TV shows</Description>
+</Application>

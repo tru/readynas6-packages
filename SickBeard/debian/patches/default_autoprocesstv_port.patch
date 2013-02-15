@@ -1,0 +1,14 @@
+--- a/src/autoProcessTV/autoProcessTV.cfg.sample
++++ b/src/autoProcessTV/autoProcessTV.cfg.sample
+@@ -1,7 +1,8 @@
+ [SickBeard]
+ host=localhost
+-port=8081
++port=5052
+ username=
+ password=
+ web_root=
+-ssl=0
+\ No newline at end of file
++ssl=0
++
